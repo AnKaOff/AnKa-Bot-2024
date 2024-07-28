@@ -1,0 +1,18 @@
+Debug le statut PornHub, Tiktok et en crée de nouveau .
+
+Dev le panel Help
+
+Ranger les fichiers autre que le fichier prefix.json
+
+Debug la commande phonenumber
+
+Devellopez le setcolor (embed) en mettant du blanc, noir et autre sous forme de nom de coulour et non pas de hex
+
+Pour syncroniser les embed avec la commande setcolor :
+
+        color = getattr(bot, 'embed_color', discord.Color.default())
+        embed = discord.Embed(title="", color=color)
+
+Faire une commande invitebot
+
+Faire une commande deletebackup
